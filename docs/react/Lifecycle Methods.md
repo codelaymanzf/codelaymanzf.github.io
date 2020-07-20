@@ -1,8 +1,9 @@
+
 # React 生命周期函数
 
-https://reactjs.org/docs/react-component.html#commonly-used-lifecycle-methods
+[https://reactjs.org/docs/react-component.html#commonly-used-lifecycle-methods](https://reactjs.org/docs/react-component.html#commonly-used-lifecycle-methods)
 
-http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+[http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 ## 共有的
 

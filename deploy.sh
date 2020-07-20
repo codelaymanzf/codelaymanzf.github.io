@@ -15,6 +15,7 @@ echo 'www.codelayman.top' > CNAME
 git init
 git config --local user.name zhangfeng
 git config --local user.email zf_0719@126.com
+# git remote add origin git@github.com:codelaymanzf/codelaymanzf.github.io.git
 git add -A
 git commit -m 'deploy'
 

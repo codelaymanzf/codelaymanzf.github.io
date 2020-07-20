@@ -1,3 +1,4 @@
+# 手写 call & apply & bind
 ## 手写 call
 
 ```js

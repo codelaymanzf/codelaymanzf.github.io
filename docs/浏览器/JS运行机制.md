@@ -15,7 +15,7 @@
 
 ### Event Loop
 
-![Event Loop](EventLoop.gif)
+![Event Loop](./EventLoop.gif)
 
 ### 宏任务与微任务
 
@@ -35,7 +35,7 @@
 - `Promise`
 - `MutationObserver`
 
-https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+[https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 
 ### 运行机制
 

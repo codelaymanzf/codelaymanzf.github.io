@@ -1,3 +1,5 @@
+# 手写promise
+
 ```js
 (function(window) {
   function Promise(executor) {

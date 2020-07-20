@@ -1,4 +1,4 @@
-# HTTP
+# HTTP & HTTPS
 
 ## HTTP 组成
 
@@ -55,7 +55,9 @@
 - 501 not implemented, 表示服务器不支持当前请求所需要的某个功能
 - 503 service unavailable, 表示服务器暂时处于超负载或正在停机维护，无法处理请求
 
-# HTTPS
+
+
+## HTTPS
 
 一般来说，主要关注的就是 `SSL/TLS` 的握手流程，如下（简述）：
 
@@ -79,7 +81,7 @@
 
 之后所有的 https 通信数据将由之前浏览器生成的 session key 并利用对称加密算法进行加密。
 
-![HTTPS验证过程](HTTPS验证过程.png)
+![HTTPS验证过程](./HTTPS_verify.png)
 
 ### HTTS 缺点
 

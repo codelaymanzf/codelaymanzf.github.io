@@ -1,4 +1,4 @@
-### CSRF 概念
+### CSRF
 
 Cross Site Request Forgery，即跨站请求伪造，是一种常见的 Web 攻击，它利用用户已登录的身份，在用户不知情的情况下，以用户的名义完成非法请求。
 
