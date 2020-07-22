@@ -1,7 +1,14 @@
 module.exports = {
-  title: '野生码农的学习笔记',
+  title: "野生码农的学习笔记",
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "野生码农的学习笔记",
+      description: "野生码农的学习笔记",
+    },
+  },
   themeConfig: {
-    logo: '/assets/img/logo.png',
+    logo: "/assets/img/logo.png",
     search: false,
     docsDir: "docs",
     lastUpdated: true, // 最后更新时间
@@ -22,10 +29,7 @@ module.exports = {
       },
       {
         title: "ES6",
-        children: [
-          "/ES6/arrow function.md",
-          "/ES6/var、let & const.md"
-        ],
+        children: ["/ES6/arrow function.md", "/ES6/var、let & const.md"],
       },
       {
         title: "浏览器原理",
@@ -49,23 +53,23 @@ module.exports = {
         ],
       },
       {
-        title: 'Web安全',
+        title: "Web安全",
         children: [
           "/web security/XSS.md",
           "/web security/CSRF.md",
-          "/web security/clickjacking.md"
-        ]
+          "/web security/clickjacking.md",
+        ],
       },
       {
-        title: 'webpack',
+        title: "webpack",
         children: [
           "/webpack/webpack构建流程.md",
           "/webpack/webpack优化方案.md",
-          "/webpack/自定义loader、plugin.md"
-        ]
+          "/webpack/自定义loader、plugin.md",
+        ],
       },
       {
-        title: '手写系列',
+        title: "手写系列",
         children: [
           "/手写系列/手写call、apply、bind.md",
           "/手写系列/手写instanceof.md",
@@ -73,23 +77,23 @@ module.exports = {
           "/手写系列/手写throttle、debounce.md",
           "/手写系列/手写promise.md",
           "/手写系列/手写bubbleSort、quickSort.md",
-        ]
-      },{
-        title: 'React',
+        ],
+      },
+      {
+        title: "React",
         children: [
           "/react/Lifecycle Methods.md",
           "/react/setState.md",
           "/react/virtual dom.md",
           "/react/diff algorithm.md",
           "/react/React v 16.0 新加内容.md",
-          "/react/性能优化.md"
-        ]
-      },{
-        title: '框架/库源码简版',
-        children: [
-          "/框架和库源码/"
-        ]
-      }
+          "/react/性能优化.md",
+        ],
+      },
+      {
+        title: "框架/库源码简版",
+        children: ["/框架和库源码/"],
+      },
     ],
   },
 };
