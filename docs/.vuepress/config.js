@@ -1,5 +1,8 @@
 module.exports = {
   title: "野生码农的学习笔记",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   locales: {
     "/": {
       lang: "zh-CN",
