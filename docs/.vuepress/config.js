@@ -15,7 +15,7 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true
   }],
-  locales: {
+  locales: { 
     "/": {
       lang: "zh-CN",
       title: "野生码农的学习笔记",
