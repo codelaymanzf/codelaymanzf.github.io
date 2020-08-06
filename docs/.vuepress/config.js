@@ -120,8 +120,9 @@ module.exports = {
       ],
       '/linux/': [
         {
-          title: '基本命令',
+          title: '运维基础',
           children: [
+            "/linux/SVN&Git.md",
             "/linux/基本命令.md"
           ]
         }
