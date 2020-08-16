@@ -92,6 +92,12 @@ module.exports = {
           ],
         },
         {
+          title: "前端错误基础",
+          children: [
+            "/frontend/前端错误/错误基础.md"
+          ]
+        },
+        {
           title: "手写系列",
           children: [
             "/frontend/手写系列/手写call、apply、bind.md",
