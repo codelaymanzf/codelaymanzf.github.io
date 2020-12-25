@@ -30,6 +30,7 @@ module.exports = {
     nav: [
       {text: '前端', link: '/frontend/'},
       {text: '运维', link: '/linux/'},
+      {text: '博客', link: '/blog'}
     ],
     sidebar:{
       '/frontend/':  [
@@ -92,12 +93,6 @@ module.exports = {
           ],
         },
         {
-          title: "前端错误基础",
-          children: [
-            "/frontend/前端错误/错误基础.md"
-          ]
-        },
-        {
           title: "手写系列",
           children: [
             "/frontend/手写系列/手写call、apply、bind.md",
@@ -130,6 +125,14 @@ module.exports = {
           children: [
             "/linux/SVN&Git.md",
             "/linux/基本命令.md"
+          ]
+        }
+      ],
+      '/blog': [
+        {
+          title: '前端错误基础',
+          children: [
+            "/blog/前端错误/错误基础.md"
           ]
         }
       ]
