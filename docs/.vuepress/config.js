@@ -45,15 +45,15 @@ module.exports = {
             "/frontend/JS基础/closure.md",
             "/frontend/JS基础/this.md",
             "/frontend/JS基础/deepClone",
-            "/frontend/JS基础/shallowClone",
-          ],
+            "/frontend/JS基础/shallowClone"
+          ]
         },
         {
           title: "ES6",
           children: [
             "/frontend/ES6/arrow function.md",
             "/frontend/ES6/var、let & const.md"
-          ],
+          ]
         },
         {
           title: "浏览器原理",
@@ -63,8 +63,8 @@ module.exports = {
             "/frontend/浏览器/浏览器缓存机制.md",
             "/frontend/浏览器/渲染流水线.md",
             "/frontend/浏览器/JS运行机制.md",
-            "/frontend/浏览器/垃圾回收.md",
-          ],
+            "/frontend/浏览器/垃圾回收.md"
+          ]
         },
         {
           title: "网络",
@@ -73,24 +73,24 @@ module.exports = {
             "/frontend/网络/HTTP2、HTTP3.md",
             "/frontend/网络/TCP.md",
             "/frontend/网络/UDP.md",
-            "/frontend/网络/输入URL到页面展示的过程.md",
-          ],
+            "/frontend/网络/输入URL到页面展示的过程.md"
+          ]
         },
         {
           title: "Web安全",
           children: [
             "/frontend/web security/XSS.md",
             "/frontend/web security/CSRF.md",
-            "/frontend/web security/clickjacking.md",
-          ],
+            "/frontend/web security/clickjacking.md"
+          ]
         },
         {
           title: "webpack",
           children: [
             "/frontend/webpack/webpack构建流程.md",
             "/frontend/webpack/webpack优化方案.md",
-            "/frontend/webpack/自定义loader、plugin.md",
-          ],
+            "/frontend/webpack/自定义loader、plugin.md"
+          ]
         },
         {
           title: "手写系列",
@@ -100,8 +100,8 @@ module.exports = {
             "/frontend/手写系列/手写reduce、indexOf.md",
             "/frontend/手写系列/手写throttle、debounce.md",
             "/frontend/手写系列/手写promise.md",
-            "/frontend/手写系列/手写bubbleSort、quickSort.md",
-          ],
+            "/frontend/手写系列/手写bubbleSort、quickSort.md"
+          ]
         },
         {
           title: "React",
@@ -111,12 +111,12 @@ module.exports = {
             "/frontend/react/virtual dom.md",
             "/frontend/react/diff algorithm.md",
             "/frontend/react/React v 16.0 新加内容.md",
-            "/frontend/react/性能优化.md",
-          ],
+            "/frontend/react/性能优化.md"
+          ]
         },
         {
           title: "框架/库源码简版",
-          children: ["/frontend/框架和库源码/"],
+          children: ["/frontend/框架和库源码/"]
         }
       ],
       '/linux/': [
@@ -128,7 +128,7 @@ module.exports = {
           ]
         }
       ],
-      '/blog': [
+      '/blog/': [
         {
           title: '前端错误基础',
           children: [
