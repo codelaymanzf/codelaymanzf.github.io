@@ -15,12 +15,12 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true
   }],
-  locales: { 
+  locales: {
     "/": {
       lang: "zh-CN",
       title: "野生码农的学习笔记",
-      description: "野生码农的学习笔记",
-    },
+      description: "野生码农的学习笔记"
+    }
   },
   themeConfig: {
     logo: "/assets/img/logo.png",
@@ -30,7 +30,7 @@ module.exports = {
     nav: [
       {text: '前端', link: '/frontend/'},
       {text: '运维', link: '/linux/'},
-      {text: '博客', link: '/blog'}
+      {text: '博客', link: '/blog/'}
     ],
     sidebar:{
       '/frontend/':  [
@@ -51,7 +51,7 @@ module.exports = {
         {
           title: "ES6",
           children: [
-            "/frontend/ES6/arrow function.md", 
+            "/frontend/ES6/arrow function.md",
             "/frontend/ES6/var、let & const.md"
           ],
         },
@@ -117,7 +117,7 @@ module.exports = {
         {
           title: "框架/库源码简版",
           children: ["/frontend/框架和库源码/"],
-        } 
+        }
       ],
       '/linux/': [
         {
@@ -137,5 +137,5 @@ module.exports = {
         }
       ]
     }
-  },
+  }
 };
